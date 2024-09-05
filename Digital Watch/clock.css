@@ -1,0 +1,39 @@
+body {
+
+    height: 100vh;
+    background: url("imges/images.jpg")no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+section {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+#clock {
+    box-shadow: 5px 5px 2px rgb(49, 45, 45);
+    color: white;
+    font-family: monospace;
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 0 15px;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    text-shadow: 5px 5px 2px rgb(129, 108, 108);
+}
